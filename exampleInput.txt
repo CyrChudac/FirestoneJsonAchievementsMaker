@@ -1,0 +1,27 @@
+id wild_amazing_plays_fatigue_5x
+name The end is comming!
+text Win a Ranked game where you take fatigue damage at least 5 times
+artName Elixir of Vim
+layers divisions
+ranked true
+format wild
+requirements [
+	{ "type": "FATIGUE_DAMAGE", "values": ["15", "AT_LEAST"] }
+]
+resetEvents ["GAME_START"]
+đ
+
+id zkousim
+name Never!
+text Impossible!
+artName Twist - The Stench
+layers Bronze 5 Silver 4 Gold 3 Platinum 2 Diamond 1
+layerReqStart { "type": "RANKED_MIN_LEAGUE", "values": ["
+layerReqEnd "] }
+ranked false
+format any
+requirements [
+	{ "type": "FATIGUE_DAMAGE", "values": ["100", "AT_LEAST"] }
+]
+resetEvents ["GAME_START"]
+đ
